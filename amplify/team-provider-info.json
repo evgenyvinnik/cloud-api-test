@@ -10,6 +10,15 @@
       "StackName": "amplify-cloudapitest-staging-215217",
       "StackId": "arn:aws:cloudformation:us-west-2:211300663418:stack/amplify-cloudapitest-staging-215217/75cd0c00-d0ab-11ec-bc0e-0a4437d8a923",
       "AmplifyAppId": "d23okwuway0oez"
+    },
+    "categories": {
+      "function": {
+        "cloudapiecho": {
+          "secretsPathAmplifyAppId": "d23okwuway0oez",
+          "deploymentBucketName": "amplify-cloudapitest-staging-215217-deployment",
+          "s3Key": "amplify-builds/cloudapiecho-482f705245346a667462-build.zip"
+        }
+      }
     }
   }
 }
