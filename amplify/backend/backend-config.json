@@ -6,5 +6,21 @@
       "service": "Lambda",
       "dependsOn": []
     }
+  },
+  "api": {
+    "cloudapiwebhook": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "cloudapiecho",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
   }
 }
