@@ -1,32 +1,81 @@
 {
-  "body-json": {
-    "object": "whatsapp_business_account",
-    "entry": [
-      {
-        "id": "102388839101522",
-        "changes": [
-          {
-            "value": {
-              "messaging_product": "whatsapp",
-              "metadata": {
-                "display_phone_number": "15550182849",
-                "phone_number_id": "717081705992024"
-              },
-              "messages": [
-                {
-                  "type": "text",
-                  "from": "14254492404",
-                  "timestamp": 1495806231828,
-                  "text": {
-                    "body": "Test"
-                  }
-                }
-              ]
-            },
-            "field": "messages"
-          }
-        ]
-      }
-    ]
-  }
+  "resource": "/webhook",
+  "path": "/webhook",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "deflate, gzip",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Content-Type": "application/json",
+    "Host": "api.vancouverlibrary.net",
+    "User-Agent": "facebookexternalua",
+    "Via": "1.1 fb20a09434e98f5a93d582fc2cd985de.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "x2X2K7r8UpmCeJjsW3L1GD2lK4kBGAnOIAAAu7c2WKLsAkusGSRK8Q==",
+    "X-Amzn-Trace-Id": "Root=1-627d39b5-0e59d5d1026c48a33847fba8",
+    "X-Forwarded-For": "173.252.95.6, 70.132.48.135",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "X-Hub-Signature": "sha1=130a6d6309d33e60b71bbd77254b58f250511bc7"
+  },
+  "multiValueHeaders": {
+    "Accept": ["*/*"],
+    "Accept-Encoding": ["deflate, gzip"],
+    "CloudFront-Forwarded-Proto": ["https"],
+    "CloudFront-Is-Desktop-Viewer": ["true"],
+    "CloudFront-Is-Mobile-Viewer": ["false"],
+    "CloudFront-Is-SmartTV-Viewer": ["false"],
+    "CloudFront-Is-Tablet-Viewer": ["false"],
+    "CloudFront-Viewer-Country": ["US"],
+    "Content-Type": ["application/json"],
+    "Host": ["api.vancouverlibrary.net"],
+    "User-Agent": ["facebookexternalua"],
+    "Via": ["1.1 fb20a09434e98f5a93d582fc2cd985de.cloudfront.net (CloudFront)"],
+    "X-Amz-Cf-Id": ["x2X2K7r8UpmCeJjsW3L1GD2lK4kBGAnOIAAAu7c2WKLsAkusGSRK8Q=="],
+    "X-Amzn-Trace-Id": ["Root=1-627d39b5-0e59d5d1026c48a33847fba8"],
+    "X-Forwarded-For": ["173.252.95.6, 70.132.48.135"],
+    "X-Forwarded-Port": ["443"],
+    "X-Forwarded-Proto": ["https"],
+    "X-Hub-Signature": ["sha1=130a6d6309d33e60b71bbd77254b58f250511bc7"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "ei7qp5",
+    "resourcePath": "/webhook",
+    "httpMethod": "POST",
+    "extendedRequestId": "SBX0YFumvHcFmBw=",
+    "requestTime": "12/May/2022:16:45:41 +0000",
+    "path": "/webhook",
+    "accountId": "211300663418",
+    "protocol": "HTTP/1.1",
+    "stage": "staging",
+    "domainPrefix": "api",
+    "requestTimeEpoch": 1652373941420,
+    "requestId": "ca3601be-204b-4439-8bff-c38b35dd475e",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "173.252.95.6",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "facebookexternalua",
+      "user": null
+    },
+    "domainName": "api.vancouverlibrary.net",
+    "apiId": "zbk2q9ukce"
+  },
+  "body": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"102388839101522\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550182849\",\"phone_number_id\":\"717081705992024\"},\"contacts\":[{\"profile\":{\"name\":\"Evy\"},\"wa_id\":\"14379937017\"}],\"messages\":[{\"from\":\"14379937017\",\"id\":\"wamid.HBgLMTQzNzk5MzcwMTcVAgASGBQzQUVEQzk1NjRFNUVFQUY1OTYzRAA=\",\"timestamp\":\"1652373923\",\"text\":{\"body\":\"Dbh\"},\"type\":\"text\"}]},\"field\":\"messages\"}]}]}",
+  "isBase64Encoded": false
 }

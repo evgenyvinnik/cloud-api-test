@@ -16,7 +16,7 @@
         "cloudapiecho": {
           "secretsPathAmplifyAppId": "d23okwuway0oez",
           "deploymentBucketName": "amplify-cloudapitest-staging-215217-deployment",
-          "s3Key": "amplify-builds/cloudapiecho-315762646c4171766e48-build.zip"
+          "s3Key": "amplify-builds/cloudapiecho-6d3756663443742b4a41-build.zip"
         }
       }
     }
