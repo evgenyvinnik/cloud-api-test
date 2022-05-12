@@ -8,11 +8,6 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "api": {
-        "cloudapiwebhook": {
-            "RootUrl": "string",
-            "ApiName": "string",
-            "ApiId": "string"
-        },
         "webhook": {
             "RootUrl": "string",
             "ApiName": "string",
