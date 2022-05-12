@@ -1,5 +1,32 @@
 {
-  "key1": "value1",
-  "key2": "value2",
-  "key3": "value3"
+  "body-json": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "102388839101522",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550182849",
+                "phone_number_id": "717081705992024"
+              },
+              "messages": [
+                {
+                  "type": "text",
+                  "from": "14254492404",
+                  "timestamp": 1495806231828,
+                  "text": {
+                    "body": "Test"
+                  }
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ]
+  }
 }
