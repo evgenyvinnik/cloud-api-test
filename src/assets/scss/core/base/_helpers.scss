@@ -152,6 +152,14 @@ img.has-shadow {
 	}
 }
 
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
 // For centering content
 .center-content {
 	text-align: center;

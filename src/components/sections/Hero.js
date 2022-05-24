@@ -3,8 +3,8 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+// import Image from '../elements/Image';
+// import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionProps.types
@@ -57,9 +57,9 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
+      <div className="container-sm center-screen ">
         <div className={innerClasses}>
-          <div className="hero-content">
+          <div className="hero-content  ">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Landing template for <span className="text-color-primary">startups</span>
             </h1>
@@ -79,7 +79,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
@@ -99,7 +99,7 @@ const Hero = ({
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+            videoTag="iframe" /> */}
         </div>
       </div>
     </section>
