@@ -92,6 +92,9 @@ exports.handler = async (event)  => {
                                     "q W e R t y u i O p\n" +
                                     "a S D f g h j k l\n" +
                                     "z x c v b n m\n" +
+                                    "q W🟨 E🟩 R🟩 T🟩 y u I🟩 o p\n" +
+                                    "a s d f g h j k l\n" +
+                                    "z x c v b n m\n" +
                                     message_body;
                 sendReply(phone_number_id, WHATSAPP_TOKEN, from, reply_message);
                 const responseBody = "Done";
