@@ -76,6 +76,22 @@ exports.handler = async (event)  => {
                 let message_body = message.text.body;
                 let reply_message = "Ack from AWS lambda: \n" + 
                                     "W🟨 O🟩 R⬜️ D🟩 S⬜️\n" +
+                                    "\n" +
+                                    "qwertyuiop\n" +
+                                    "asdfghjkl\n" +
+                                    "zxcvbnm\n" +
+                                    "QWERTYUIOP\n" +
+                                    "ASDFGHJKL\n" +
+                                    "ZXCVBNM\n" +
+                                    "q w e r t y u i o p\n" +
+                                    "a s d f g h j k l\n" +
+                                    "z x c v b n m\n" +
+                                    "Q W E R T Y U I O P\n" +
+                                    "A S D F G H J K L\n" +
+                                    "Z X C V B N M\n" +
+                                    "q W e R t y u i O p\n" +
+                                    "a S D f g h j k l\n" +
+                                    "z x c v b n m\n" +
                                     message_body;
                 sendReply(phone_number_id, WHATSAPP_TOKEN, from, reply_message);
                 const responseBody = "Done";
