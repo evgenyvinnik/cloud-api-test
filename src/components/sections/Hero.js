@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 import Image from '../elements/Image';
 
 const propTypes = {
@@ -23,19 +22,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
-
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -62,7 +48,7 @@ const Hero = ({
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               WhatsApp bot for <span className="text-color-primary">VPL</span>
             </h1>
-            <div className="container-xs">
+            <div className="container-m">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Introducing first ever WhatsApp bot for Vancouver Public Library.
                 </p>
@@ -71,7 +57,7 @@ const Hero = ({
                     <a href="https://wa.me/14379937017?text=start">
                       <Image
                         src={require('./../../assets/images/ctwa.png')}
-                        width={189}/>
+                        width={260}/>
                     </a>
                     <a href="https://wa.me/14379937017?text=start">
                       <Image
